@@ -1,13 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeModule } from './home/home.module';
 import { CardComponent } from './card/card.component';
-import { CustomSectionComponent } from './custom-section/custom-section.component';
 
 @NgModule({
   declarations: [
@@ -15,12 +13,11 @@ import { CustomSectionComponent } from './custom-section/custom-section.componen
     NavBarComponent,
     FooterComponent,
     CardComponent,
-    CustomSectionComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HomeModule
+    HomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

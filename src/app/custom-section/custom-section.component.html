@@ -1,1 +1,19 @@
-<p>custom-section works!</p>
+<div class="w-full bg-black my-5 p-9">
+  <div class="max-w-screen-lg mx-auto grid grid-cols-3 gap-4  justify-between">
+    
+    <div class="bg-[#262323] h-40 flex flex-col items-center justify-center rounded-lg text-[#FF3A3A]">
+      <div [innerHTML]="getSafeSvg(square1Icon)" class="w-12 h-12"></div>
+      <span class="text">{{ square1Content }}</span>
+    </div>
+    
+    <div class="bg-[#262323] h-40 flex flex-col items-center justify-center rounded-lg text-[#FF3A3A]">
+      <div [innerHTML]="getSafeSvg(square2Icon)" class="w-12 h-12"></div>
+      <span class="text">{{ square2Content }}</span>
+    </div>
+    
+    <div class="bg-[#262323] h-40 flex flex-col items-center justify-center rounded-lg text-[#FF3A3A]">
+      <div [innerHTML]="getSafeSvg(square3Icon)" class="w-12 h-12"></div>
+      <span class="text">{{ square3Content }}</span>
+    </div>
+  </div>
+</div>
