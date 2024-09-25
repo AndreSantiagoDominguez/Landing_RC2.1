@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './pagina.component.html',
   styleUrl: './pagina.component.css'
 })
+
 export class PaginaComponent {
 
 }
