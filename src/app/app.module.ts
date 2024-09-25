@@ -7,13 +7,15 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeModule } from './home/home.module';
 import { CardComponent } from './card/card.component';
+import { CustomSectionComponent } from './custom-section/custom-section.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     FooterComponent,
-    CardComponent
+    CardComponent,
+    CustomSectionComponent
   ],
   imports: [
     BrowserModule,
