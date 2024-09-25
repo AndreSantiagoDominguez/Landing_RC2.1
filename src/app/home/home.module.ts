@@ -4,20 +4,23 @@ import { PaginaComponent } from './pagina/pagina.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { CustomSectionComponent } from '../custom-section/custom-section.component'; // Asegúrate que esta ruta es correcta
 import { CardComponent } from '../card/card.component';
+import { CardRComponent } from '../card-r/card-r.component';
 
 @NgModule({
   declarations: [
     PaginaComponent,
     CarouselComponent,
     CustomSectionComponent,
-    CardComponent 
+    CardComponent,
+    CardRComponent
   ],
   imports: [
     CommonModule
   ],
   exports: [
     CustomSectionComponent,
-    CardComponent 
+    CardComponent,
+    CardRComponent
   ]
 })
 export class HomeModule { }
