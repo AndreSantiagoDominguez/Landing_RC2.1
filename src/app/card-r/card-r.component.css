@@ -1,0 +1,48 @@
+.card-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
+    padding: 24px;
+    margin-left: auto;
+    margin-right: 20px;
+    width: 80%; /* Card se adapta a su contenedor */
+  }
+  
+  .card-title {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 16px;
+  }
+  
+  .card-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #4A4A4A;
+    text-align: justify;
+  }
+
+
+    /* empiezan los estilos del contenedor de la card */
+
+
+
+  .flex {
+    display: flex;
+    align-items: center;
+    gap: 32px; 
+
+  }
+  
+  img {
+    width: 33%; 
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    /*margin-right: 10px;*/
+
+  }
+  
+  
