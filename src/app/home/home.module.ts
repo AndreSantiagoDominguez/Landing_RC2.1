@@ -2,25 +2,20 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PaginaComponent } from './pagina/pagina.component';
 import { CarouselComponent } from './carousel/carousel.component';
-import { CustomSectionComponent } from '../custom-section/custom-section.component'; 
-import { CardComponent } from '../card/card.component';
-import { CardRComponent } from '../card-r/card-r.component';
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   declarations: [
     PaginaComponent,
     CarouselComponent,
-    CustomSectionComponent,
-    CardComponent,
-    CardRComponent
+   
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    SharedModule
   ],
   exports: [
-    CustomSectionComponent,
-    CardComponent,
-    CardRComponent
+
   ]
 })
 export class HomeModule { }
