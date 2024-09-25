@@ -5,14 +5,13 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeModule } from './home/home.module';
-import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     FooterComponent,
-    CardComponent,
+    
   ],
   imports: [
     BrowserModule,
