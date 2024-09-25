@@ -1,10 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { PaginaPComponent } from './pagina-p/pagina-p.component';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    PaginaPComponent
+  ],
   imports: [
     CommonModule
   ]
