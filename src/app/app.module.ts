@@ -6,6 +6,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeModule } from './home/home.module';
 import { PerifericosModule } from './perifericos/perifericos.module';
+import { ComputadorasModule } from './computadoras/computadoras.module';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { PerifericosModule } from './perifericos/perifericos.module';
     BrowserModule,
     AppRoutingModule,
     HomeModule,
-    PerifericosModule
+    PerifericosModule,
+    ComputadorasModule
   ],
   exports:[
     
