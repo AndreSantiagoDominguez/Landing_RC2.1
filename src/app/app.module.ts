@@ -5,19 +5,26 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeModule } from './home/home.module';
-import { CardRComponent } from './card-r/card-r.component';
+import { PerifericosModule } from './perifericos/perifericos.module';
+import { ComputadorasModule } from './computadoras/computadoras.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     FooterComponent,
+  
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HomeModule,
+    PerifericosModule,
+    ComputadorasModule
+  ],
+  exports:[
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

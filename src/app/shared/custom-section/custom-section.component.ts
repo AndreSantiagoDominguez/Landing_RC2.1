@@ -6,7 +6,7 @@ import { DomSanitizer } from '@angular/platform-browser';
   templateUrl: './custom-section.component.html',
   styleUrls: ['./custom-section.component.css']
 })
-export class CustomSectionComponent {
+export class CustomSectionComponent { 
 
   @Input() square1Content!: string;
   @Input() square2Content!: string;
@@ -15,7 +15,6 @@ export class CustomSectionComponent {
   @Input() square1Icon!: string; 
   @Input() square2Icon!: string; 
   @Input() square3Icon!: string;
-
 
   constructor(private sanitizer: DomSanitizer) {}
 
